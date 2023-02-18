@@ -32,4 +32,9 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ![](https://github.com/WinnieThomas/SocialMediaBackend/blob/main/Assets/CreateReaction.png?raw=true)
 ![](https://github.com/WinnieThomas/SocialMediaBackend/blob/main/Assets/CeateFriends.png?raw=true)
 
+## Vedio Walkthrough
+![](https://user-images.githubusercontent.com/111534031/219866534-97cf2e5b-f554-43e8-9668-af4721736199.mp4)
+
+
+
 
