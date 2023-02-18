@@ -26,3 +26,10 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Screenshots of the application
 ![](https://github.com/WinnieThomas/SocialMediaBackend/blob/main/Assets/GetUsers.png?raw=true)
+![](https://github.com/WinnieThomas/SocialMediaBackend/blob/main/Assets/GetuserbyID.png?raw=true)
+![](https://github.com/WinnieThomas/SocialMediaBackend/blob/main/Assets/Getallthought.png?raw=true)
+![](https://github.com/WinnieThomas/SocialMediaBackend/blob/main/Assets/DetthoughtbyId.png?raw=true)
+![](https://github.com/WinnieThomas/SocialMediaBackend/blob/main/Assets/CreateReaction.png?raw=true)
+![](https://github.com/WinnieThomas/SocialMediaBackend/blob/main/Assets/CeateFriends.png?raw=true)
+
+
