@@ -25,4 +25,5 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ```
 
 ## Screenshots of the application
-![](
+![](https://github.com/WinnieThomas/SocialMediaBackend/blob/main/Assets/GetUsers.png?raw=true![image](https://user-images.githubusercontent.com/111534031/219866246-a9b02b6c-a546-4f8a-95e3-e427dba585e9.png)
+
