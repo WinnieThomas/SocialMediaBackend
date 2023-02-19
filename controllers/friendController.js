@@ -1,7 +1,5 @@
 const { User } = require('../models');
 module.exports = {
-
-  //add reactions
 addFriend(req, res) {
     User.findOneAndUpdate(
       { _id: req.params.userId },
@@ -20,7 +18,7 @@ addFriend(req, res) {
   removeFriend(req, res) {
     User.findOneAndUpdate(
       { _id: req.params.userId },
-      { $pull: { friends: { reactionId: req.params.friendId } } },
+      { $pull: { friends: req.params.friendId } },
       {  new: true }
     )
     .then((friendData) =>
