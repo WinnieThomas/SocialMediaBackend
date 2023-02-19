@@ -1,13 +1,12 @@
 const { Thought, User } = require('../models');
 
 module.exports = {
-  //get all thoughts
   getThought(req, res) {
     Thought.find()
       .then((thoughtData) => res.json(thoughtData))
       .catch((err) => res.status(500).json(err));
   },
-//get single thought
+
   getSingleThought(req, res) {
     Thought.findOne({ _id: req.params.thoughtId })
       .then((thoughtData) =>
@@ -18,13 +17,13 @@ module.exports = {
       .catch((err) => res.status(500).json(err));
   },
 
-  // create a new thought
+  // create a new video
   createThought(req, res) {
     Thought.create(req.body)
       .then((thoughtData) => {
       return User.findOneAndUpdate(
           { username: req.body.username },
-          { $addToSet: { thoughts: thoughtData._id } },
+          { $addToSet: { thought: thoughtData._id } },
           { new: true }
         );
         
